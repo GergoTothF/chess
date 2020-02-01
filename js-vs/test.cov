@@ -1,0 +1,3306 @@
+BullseyeCoverage 8.11.1
+0000b000
+00009e00
+0027382f
+00000000
+00001a00
+29e7380a
+dir=c:/js-gui2/js-vs/
+size=0000b200
+caseFold=1
+license=38630
+....
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+Obj 00000504 6a67382a x64/Debug/bmp-to-ascii.obj 20191128193902 0 1 8.16.5
+s8744df58
+nXnXnXnXnXdTFdTFctfctfdTFsc2e97a98
+n d  d  n d  d  d  d  n n d  d  d  d  d  d  n d  d  d  n d  d  d  d  c  c  d  d  d  d  c  c  d  sd5c4c5b0
+nXnXn nXnXnXdTFnXlXlXlXlXlXlXlXlXlXlXlXlXlXnXdTFsac2e9b80
+nXnXdTFdTFctfctfnXdTFdTFdTFctfctfctfctfctfctfnXdTFdTFdTFctfctfctfctfctfctfnXdTFdTFd Fct c fc fc  nXdTFdTFctfctfdTFctfctfdTFctfctfdTFctfctfnXdTFdTFctfdTFctfdTFctfctfctfctfdTFc fctfctfctfnXdTFctfctfnXdTFdTFctfctfnXdTFctfctfdTFdTFnXdTFdTFctfctfd FdTFctfctfdTFnXdTFdTFctfct dTFdTFctfctfdTFctfct dTFdTFctfctfnXdTFdTFctfc fctfdTFctfc fctfdTFctfc fctfdTFctfc fctfnXdT dTFd Fd  c  c  c  c  c  d Fd  c  c  c  c  c  c  dTFdTFctfctFctfct ctfdTFdTFct ctFct ctfct ct dTFdTFdTFctfctfdTFdTFdTFdTFdT dTFdTFnXdTFdTFdTFctfctfdTFdTFdTFdTFdTFdTFnXdTFcTFcTFcTFdTFl l lXlXlXlXlXlXlXlXl lXlXlXdTFd Fd FdTFdT d Fd FcTFcTFcTFcTFcT c FcT c FcTFcT c FcT c Fd Fd  nXdTFdTFdTFdTFd Fd FdTFdT d Fd  nXdTFdTFnXdTFctfctfdTFdTFctfct dTFd Fd  d  d  d  d  d Fd Fd Fd Fd FnXnXnXdTFctfctfctfs7e0ce001
+nXdTFnXdTFdTFdTFdTFctfctfdTFctfctfctfdTFctfctfct dTFdTFdTFnXdTFdTFdTFctfctfct c fdTFdTFd Fctfc fd  d  d  dTFdTFdTFdTFdTFnXs17f1df28
+nXdTFdTFn nXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXl l l l dTFdT l l lXlXl dTFd Fd Fs4b3d5f4f
+n d  d  n End
+...........
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+00006c
+S185b33a5
+src ../macroutils.cpp 20191120201548 7ff47e05
+ne2ec03e7 43,4clearHistoryTable()
+d1,14
+d1,11
+d1,11
+............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+000128
+Sf378d4b0
+src ../utils.h 20191127080523 13523e3b
+n26c2309 371,10convertFromSquare(INT8S,INT8S,char*)
+nb6efad9f 47,9distance(INT8U,INT8U)
+na8aef75e 5,9)8E_fil
+n12b19127 5,9<9Drank
+nb890a641 10,12sliding_attack(Direction[],INT8U,INT64U)
+d4,11
+d3
+c
+c,15
+d5
+nca245199 26,10checkZobristIntegrity()
+d5
+000208
+Sc2e97a98
+src ../bitlogic.h 20190906141415 23a07e00
+n85f346a7 15,12getRankAttacks(INT64U,INT8U,SearchDirection)
+d19
+d4,4
+n770a2571 8,12(3HFileAndDiagonalAttacks(INT64U,INT8U,const INT64U(&)[],const INT64U(&)[]
+d8
+d5
+d13
+d5
+n2fb41e89 15,12(31AllPawnAttacks(INT64U,INT64U,INT8U,const INT64U(&)[],const INT64U(&)[]
+n80ef3b70 10,12<61AttacksTo(INT8U
+d25
+d5
+d5,4
+d5,4
+d5,4
+d4,4
+n522c3076 8,12>67SuperAttacksFrom
+d35
+d2
+d7
+n2e1ee288 18,10>06addExtraPawnMove(INT64U&,piece::Type,
+d3
+d8
+d7
+d4
+c,3
+c,17
+d6
+d5,4
+d7
+d4
+c,3
+c,17
+d6
+000181
+Sd5c4c5b0
+src ../magicbitboard.h 20190906141416 9b666a89
+nf13b3893 26,6PseudoRandomGenerator::random()
+n99d996c4 7(N1PseudoRandomGenerator(INT64U
+n5bed9663 1,20(R2<T>
+n5b58b137 6,20<N9sparse_
+n33fb24f2 14,4Magic::index(INT64U) const
+nc5bb5c84 18,12)07attacks_bb<Pt>(INT8U,
+d2,17
+n82161612 4,12]A8(piece::Type,INT8S
+l4
+l1
+l2
+l1
+l2
+l1
+l2
+l1
+l2
+l1
+l2
+l2
+l2
+n99291ce6 4,12{7EFrom(INT8U
+d2
+000699
+Scde01d38
+src ../mover.h 20191128095251 adb29c26
+n8dd21a22 13,10mover::isPiece(piece::Type,INT8S)
+neae2cbce 5,10(71hasLeaperAttack(INT8S,piece::Type
+d4,15
+d8
+c,3
+c,13
+n3a4e1c8b 9,10)A1StraightAttack(INT8U,INT8S,int
+d8
+d2
+d2
+c,4
+c,23
+c,94
+c1,1
+c,20
+c,91
+n662156ea 17,10<ANDiagonal
+d8
+d2
+d2
+c,4
+c,23
+c,96
+c1,1
+c,20
+c,93
+nee5d161f 17,10<ANBishop
+d8
+d2
+d2
+c,4
+c,22
+c1,1
+c,19
+ndb0320ab 17,10(97AttackedByPawn(char
+d3
+d5
+c,3
+c,13
+d7
+c,3
+c,13
+d10
+c,3
+c,13
+d7
+c,3
+c,13
+n51e27db1 9,10]HC
+d3
+d6
+c,34
+d6
+c,34
+d6
+c,3
+c1
+c1
+c1
+d6
+c,3
+c1
+c1
+c1
+nb8c17fbe 37,10(71fillSquare(color::Type,piece::Type,INT8U
+n7e845b27 12,10}76clearSquare(
+d3,17
+n6e03f9dc 19,10(71see_Blind(const Move&
+d3
+c,3
+c,37
+d6
+d9
+n9154deba 12,10]77saveMove(INT8U,INT8U,INT8U,INT8U
+d25
+d6
+c,3
+c,32
+d2
+d6
+c,3
+c,16
+d3,28
+n6a86ea3e 18,10(71generatePawnMove88(INT8S,bool
+d2
+d2
+c,3
+c,20
+d5
+d4
+c,3
+c,20
+d8
+c,3
+c,20
+d5
+d4
+c,3
+c,20
+n39f8dc74 8,10#QJ6Capture88(
+d2
+d5
+c,3
+c,14
+c,42
+d7
+c,3
+c,14
+c,42
+d10
+c,3
+c,14
+c,42
+d7
+c,3
+c,14
+c,42
+nce16269e 7,11>F6Move(Move*
+d5
+d2
+d2
+d2
+c,3
+c1
+c1
+c1
+c1
+d6
+d2
+c,3
+c1
+c1
+c1
+c1
+c1
+d8
+d2
+c,3
+c1
+c1
+c1
+c1
+d6
+d2
+c,3
+c1
+c1
+c1
+c1
+c1
+d8,18
+d2
+d3
+c,3
+c1
+d5,4
+d2,15
+d10
+d5
+d2
+d5,4
+d10
+n8b29c8fa 14,11>F1QuiscenceMove(Move*
+d5,18
+d2
+d3
+c,3
+c1
+d5,4
+d2,15
+d11
+d5
+d2
+d11
+nb7036276 273,10)76makeMove(
+d10
+c,3
+c1
+c1
+d12
+l9
+l4
+l5
+l4
+l4
+l5
+l4
+l3
+l4
+l5
+l4
+l4
+l5
+l4
+d4
+d2
+d5,4
+d5,4
+d6,4
+d8
+d9
+c,4
+c,38
+c1
+d11
+d2
+n937cdefb 11,10}7Fun
+d10
+d5
+d14
+d6
+d2
+d5,4
+d5,4
+d5,4
+d13
+d2
+n4a0e7350 11,10)81ortMove(INT8U,Move*,INT8U
+d5,19
+d2
+n3f92b887 12,10(76isBadCapture(const 
+d3
+c,3
+c,37
+d6
+d13
+c,3
+c1
+d6
+d2
+d2
+d1
+d1
+d1
+d1
+d4
+d1
+d1
+d1
+d1
+nf0b437ca 62,10#G9BPromotion
+n274d6efd 5,10>9BCapture
+naad77501 4,10(77canMoveSimplified
+d2
+c,3
+c,41
+c1
+000163
+Sc353eb5e
+src ../alphabeta.h 20191128112637 638bdfca
+n89135c00 7,14evaluate()
+d20
+n5dd9c1ef 8,14quiescence(short int,short int,INT8U)
+d23
+d7
+d13,13
+d4
+c,3
+c,48
+d11
+c,3
+c1
+c1
+d12
+c,3
+c1
+c1
+d25
+d2
+d21
+n6c0d2394 8,14search(INT8U,short int,short int,bool)
+d21
+d6
+d15
+c,3
+c,27
+c,35
+c,50
+d20
+d6,13
+d2
+c,3
+c,20
+d2
+d2
+d4
+d27
+d28
+d2
+d17
+d36
+nd6393879 11,14#G63Bas
+00010b
+S17f1df28
+src ../fenparser.h 20191119205636 9a73c8d4
+n518c9161 7,10fen::clearBoard()
+d6,11
+d5,24
+ncaa48473 17,11(61onvertToSqure(const char*
+nab4a39c7 8,10)5Epars
+l11
+l1
+l1
+l1
+l1
+l1
+l1
+l1
+l1
+l1
+l1
+l1
+l1
+l1
+l1
+l1
+l1
+l1
+l1
+l1
+l1
+l1
+d3,1
+d4
+l15
+l1
+l1
+l1
+l1
+d3,1
+d5
+d7,1
+000089
+S4b3d5f4f
+src ../bmp-to-ascii.cpp 20191030072604 1da30d96
+nc4ecba72 27,10search(char*,int)
+d1
+d4,4
+nfc370c5c 58,3getLastNodeCount(char*)
+.............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+Sdir0000019e
+f378d4b0 00000a00
+c2e97a98 00000b2f
+d5c4c5b0 00000d3e
+cde01d38 00000ec6
+c353eb5e 00001566
+17f1df28 000016d0
+4b3d5f4f 000017e2
+185b33a5 00000800
+d5a76e95 00002400
+6dabd838 00002800
+17393654 00003800
+b49e60f1 00004400
+646861b0 00003600
+8744df58 00006600
+e5580b9a 00006705
+70e91cd0 00007800
+8e6d083c 00008400
+19fe2426 00008e00
+7e0ce001 00009367
+9e414f6d 00009600
+ac2e9b80 0000a000
+0e80bf81 0000a800
+02ad14d8 00008800
+....
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+Obj 00000084 8a73826 x64/Debug/macroutils.obj 20191128190918 0 1 8.16.5
+s8744df58
+nXnXnXnXnXdTFdTFctfctfdTFs185b33a5
+nXdTFdTFdTFEnd
+...........
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+0000a1
+Sd5a76e95
+src ../magicbitboard.cpp 20190906141416 d7d04624
+n5c2ae046 7,4init_magics(INT64U[],Magic[],Direction[])
+d14,18
+d18,14
+d26,1
+d8,11
+d2,24
+d13,16
+d4
+d5,4
+.......
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+Obj 000000d1 dc673827 x64/Debug/magicbitboard.obj 20191128190918 0 1 8.16.5
+s8744df58
+nXnXnXnXnXdTFdTFctfctfdTFsd5c4c5b0
+nXnXn nXnXnXdTFnXlXlXlXlXlXlXlXlXlXlXlXlXlXnXdTFsd5a76e95
+nXdTFdTFdTFdTFdTFdTFdTFdTFEnd
+..............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+000077
+S6dabd838
+src ../main.cpp 20191031123111 92aa41f6
+n1f2c6bc5 27,11search2(const char*,int)
+d1
+d4,4
+nd4620e00 61,3main()
+.
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+Obj 000004fc 4c27382b x64/Debug/main.obj 20191128193902 0 1 8.16.5
+s8744df58
+nXnXnXnXnXdTFdTFctfctfdTFsc2e97a98
+n d  d  n d  d  d  d  n n d  d  d  d  d  d  n d  d  d  n d  d  d  d  c  c  d  d  d  d  c  c  d  sd5c4c5b0
+nXnXn nXnXnXdTFnXlXlXlXlXlXlXlXlXlXlXlXlXlXnXdTFsac2e9b80
+nXnXdTFdTFctfctfnXdTFdTFdTFctfctfctfctfctfctfnXdTFdTFdTFctfctfctfctfctfctfnXdTFdTFd Fct c fc fc  nXdTFdTFctfctfdTFctfctfdTFctfctfdTFctfctfnXdTFdTFctfdTFctfdTFctfctfctfctfdTFc fctfctfctfnXdTFctfctfnXdTFdTFctfctfnXdTFctfctfdTFdTFnXdTFdTFctfctfd FdTFctfctfdTFnXdTFdTFctfct dTFdTFctfctfdTFctfct dTFdTFctfctfnXdTFdTFctfc fctfdTFctfc fctfdTFctfc fctfdTFctfc fctfnXdT dTFd Fd  c  c  c  c  c  d Fd  c  c  c  c  c  c  dTFdTFctfct ctfct ctfdTFdTFct ct ct ctfct ct dTFdTFdTFctfctfdTFdTFdTFdTFdT dTFdTFnXdTFdTFdTFctfctfdTFdTFdTFdTFdTFdTFn d  c  c  c  d  l l l l l l l l l l l l l l d  d  d  d  d  d  d  c  c  c  c  c  c  c  c  c  c  c  c  c  d  d  nXdTFdTFdTFdTFd Fd FdTFdT d Fd  nXdTFdTFnXdTFctfctfdTFdTFctfct dTFd Fd  d  d  d  d  d Fd Fd Fd Fd FnXnXnXdTFctfctfctfs7e0ce001
+nXdTFnXdTFdTFdTFdTFctfctfdTFctfctfctfdTFctfctfct dTFdTFdTFnXdTFdTFdTFctfctfct c fdTFdTFd Fctfc fd  d  d  dTFdTFdTFdTFdTFnXs17f1df28
+nXdTFdTFn nXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXl l l l dTFdT l l lXlXl dTFd Fd Fs6dabd838
+nXd Fd FnXEnd
+...
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+Obj 000000d1 dc673816 x64/Debug/magicbitboard.obj 20191128131519 0 1 8.16.5
+s8744df58
+nXnXnXnXnXdTFdTFctfctfdTFsd5c4c5b0
+nXnXn nXnXn d  n l l l l l l l l l l l l l n d  sd5a76e95
+nXdTFdTFdTFdTFdTFdTFdTFdTFEnd
+..............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+Obj 00000293 bf273829 x64/Debug/utils.obj 20191128190919 0 1 8.16.5
+s8744df58
+nXnXnXnXnXdTFdTFctfctfdTFsc2e97a98
+n d  d  n d  d  d  d  n n d  d  d  d  d  d  n d  d  d  n d  d  d  d  c  c  d  d  d  d  c  c  d  sd5c4c5b0
+nXnXn nXnXnXdTFnXlXlXlXlXlXlXlXlXlXlXlXlXlXnXdTFs17393654
+nXdTFdTFdTFdTFdTFnXdTFdTFdTFdTFnXdTFdTFdTFctfctfdTFctfctfnXdTFdTFdTFctfctfdTFctfctfnXdTFdTFdTFdTFdTFdTFdT dTFnXdTFdTFdTFdTFdTFdTFdTFdTFdTFnXdTFdTFdTFctfctfdTFctfctfdTFctfctfdTFctfctfdTFctfctfdTFctfctfdTFctfctfdTFctfctfnXdTFdTFdTFdTFdTFdTFdTFdTFdTFdTFnXdTFdTFdTFdTFdTFdTFdTFnXdTFct ctfdTFctfctfnXdTFctfct ct dTFdTFd FcTfc FdTFctFctfnXdTFdTFdTFdTFd Fd FdTFdTFnXnXdTFdTFdTFdTFn d  End
+............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+000162
+S646861b0
+src ../alphabeta.h 20191128131030 5c313a0
+n89135c00 7,14evaluate()
+d20
+n5dd9c1ef 8,14quiescence(short int,short int,INT8U)
+d23
+d7
+d13,13
+d4
+c,3
+c,48
+d11
+c,3
+c1
+c1
+d12
+c,3
+c1
+c1
+d25
+d2
+d21
+n6c0d2394 8,14search(INT8U,short int,short int,bool)
+d21
+d6
+d15
+c,3
+c,27
+c,35
+c,50
+d20
+d6,13
+d2
+c,3
+c,20
+d2
+d2
+d4
+d27
+d28
+d2
+d17
+d36
+ne0e85178 11,14#G63Bas
+......
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+00042a
+S17393654
+src ../utils.cpp 20191125073827 8aebcaca
+n3dea3914 58,4!<unnamed>::precalculateFirstRankAttacks()
+d2,25
+d8,25
+d4
+d11
+d5
+n9e87737e 12,4(P9le
+d2,16
+d2,16
+d6,18
+d6,20
+nce697314 11,4(N9Diagonal
+d2,16
+d2,16
+d7,18
+c,18
+c,33
+d8,20
+c,20
+c,38
+n85f345ab 12,4<NHAnti
+d2,16
+d2,16
+d7,18
+c,18
+c,33
+d8,20
+c,20
+c,38
+n7e296386 12,4(N9NormalPawn
+d2,12
+d6,11
+d6,16
+d2,16
+d8
+d6
+d6
+d5
+neffd6ae4 8,4[NDEnPassant
+d2,11
+d6,16
+d2,16
+d7
+d4
+d5
+d5,4
+d4
+d5
+n933bfd79 9,4(N9Knight
+d2,16
+d2,16
+d7
+c,3
+c,11
+d5
+c,3
+c,11
+d5
+c,3
+c,11
+d5
+c,3
+c,11
+d5
+c,3
+c,11
+d5
+c,3
+c,11
+d5
+c,3
+c,11
+d5
+c,3
+c,11
+ne2f426b4 10,4{O9ing
+d2,16
+d2,16
+d7
+d4
+d5
+d6
+d4
+d5
+d6
+d5
+n6d70ef1d 13,4initializeHelpers()
+d11,16
+d2,15
+d3,16
+d2,15
+d3,19
+d2,19
+d2
+ncd399d9a 15,4tteval_save(INT8U,int,int,INT8U,INT8U)
+d10
+c,3
+c,19
+d5
+c,3
+c,35
+nb89299bc 20,8)71probe(INT8U,short int,short int
+d4
+c,3
+c1
+c1
+d3
+d2
+d3
+c,3
+c,29
+d3
+c,3
+c,28
+na5c7231c 8,6calculateZobristHash()
+d4,16
+d3
+d6
+d5
+d5
+d5
+d5
+d5
+n1890a28b 9,6rand64()
+n5a493b95 7,3tt_init()
+d4,13
+d2,13
+d8,18
+d4,12
+n1d7a5b41 13,11getPathAsString(INT8U,const LogNodeArray&)
+d3,18
+..............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+Obj 00000503 6a67382c x64/Debug/bmp-to-ascii.obj 20191128194227 0 1 8.16.5
+s8744df58
+nXnXnXnXnXdTFdTFctfctfdTFsc2e97a98
+n d  d  n d  d  d  d  n n d  d  d  d  d  d  n d  d  d  n d  d  d  d  c  c  d  d  d  d  c  c  d  sd5c4c5b0
+nXnXn nXnXnXdTFnXlXlXlXlXlXlXlXlXlXlXlXlXlXnXdTFse80bf81
+nXnXdTFdTFctfctfnXdTFdTFdTFctfctfctfctfctfctfnXdTFdTFdTFctfctfctfctfctfctfnXdTFdTFdTFctFc fcTfcTFnXdTFdTFctfctfdTFctfctfdTFctfctfdTFctfctfnXdTFdTFctfdTFctfdTFctfctfctfctfdTFcTfctfctfctfnXdTFctfctfnXdTFdTFctfctfnXdTFctfctfdTFdTFnXdTFdTFctfctfdTFdTFctfctfdTFnXdTFdTFctfct dTFdTFctfctfdTFctfct dTFdTFctfctfnXdTFdTFctfc fctfdTFctfcTfctfdTFctfc fctfdTFctfc fctfnXdT dTFd Fd  c  c  c  c  c  d Fd  c  c  c  c  c  c  dTFdTFctfctfctfct ctfdTFdTFct ctfct ctfct ct dTFdTFdTFctfctfdTFdTFdTFdTFdT dTFdTFnXdTFdTFdTFctfctfdTFdTFdTFdTFdTFdTFnXdTFcTFcTFcTFdTFl lXlXlXlXlXlXlXlXlXl lXlXlXdTFd Fd FdTFdT dTFdTFcTFcTFcTFcTFcTFc FcT c FcTFcTFcTFcT c FdTFd FnXdTFdTFdTFdTFd Fd FdTFdT dTFdT nXdTFdTFnXdTFctfctfdTFdTFctfct dTFdTFdTFd FdTFd Fd FdTFd Fd Fd Fd FnXnXnXdTFctfctfctfs7e0ce001
+nXdTFnXdTFdTFdTFdTFctfctfdTFctfctfctfdTFctfctfct dTFdTFdTFnXdTFdTFdTFctfctfct c fdTFdTFd Fctfc fd  d  d  dTFdTFdTFdTFdTFnXs17f1df28
+nXdTFdTFn nXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXl l l l dTFdT l l lXlXl dTFd Fd Fs4b3d5f4f
+n d  d  n End
+............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+0006ab
+Sb49e60f1
+src ../mover.h 20191128130734 a685b5f1
+n8dd21a22 13,10mover::isPiece(piece::Type,INT8S)
+neae2cbce 5,10(71hasLeaperAttack(INT8S,piece::Type
+d4,15
+d8
+c,3
+c,13
+n3a4e1c8b 9,10)A1StraightAttack(INT8U,INT8S,int
+d8
+d2
+d2
+c,4
+c,23
+c,94
+c1,1
+c,20
+c,91
+n662156ea 17,10<ANDiagonal
+d8
+d2
+d2
+c,4
+c,23
+c,96
+c1,1
+c,20
+c,93
+nee5d161f 17,10<ANBishop
+d8
+d2
+d2
+c,4
+c,22
+c1,1
+c,19
+ndb0320ab 17,10(97AttackedByPawn(char
+d3
+d5
+c,3
+c,13
+d7
+c,3
+c,13
+d10
+c,3
+c,13
+d7
+c,3
+c,13
+n51e27db1 9,10]HC
+d3
+d6
+c,34
+d6
+c,34
+d6
+c,3
+c1
+c1
+c1
+d6
+c,3
+c1
+c1
+c1
+nb8c17fbe 37,10(71fillSquare(color::Type,piece::Type,INT8U
+n7e845b27 12,10}76clearSquare(
+d3,17
+n6e03f9dc 19,10(71see_Blind(const Move&
+d3
+c,3
+c,37
+d6
+d9
+n9154deba 12,10]77saveMove(INT8U,INT8U,INT8U,INT8U
+d25
+d6
+c,3
+c,32
+d2
+d6
+c,3
+c,16
+d3,28
+n6a86ea3e 18,10(71generatePawnMove88(INT8S,bool
+d2
+d2
+c,3
+c,20
+d5
+d4
+c,3
+c,20
+d8
+c,3
+c,20
+d5
+d4
+c,3
+c,20
+n39f8dc74 8,10#QJ6Capture88(
+d2
+d5
+c,3
+c,14
+c,42
+d7
+c,3
+c,14
+c,42
+d10
+c,3
+c,14
+c,42
+d7
+c,3
+c,14
+c,42
+nce16269e 7,11>F6Move(Move*
+d5
+d2
+d2
+d2
+c,3
+c1
+c1
+c1
+c1
+d6
+d2
+c,3
+c1
+c1
+c1
+c1
+c1
+d8
+d2
+c,3
+c1
+c1
+c1
+c1
+d6
+d2
+c,3
+c1
+c1
+c1
+c1
+c1
+d8,18
+d2
+d3
+c,3
+c1
+d5,4
+d2,15
+d10
+d5
+d2
+d5,4
+d10
+n8b29c8fa 14,11>F1QuiscenceMove(Move*
+d5,18
+d2
+d3
+c,3
+c1
+d5,4
+d2,15
+d11
+d5
+d2
+d11
+n8245374e 273,10)76makeMove(
+d10
+c,3
+c1
+c1
+d12
+l9
+l4
+l5
+l4
+l4
+l5
+l4
+l3
+l4
+l5
+l4
+l4
+l5
+l4
+d4
+d2
+d5,4
+d5,4
+d6,4
+d8
+d9
+c,4
+c,38
+c1
+c1,1
+c,35
+c1
+c,34
+d11
+d2
+n937cdefb 11,10}7Fun
+d10
+d5
+d14
+d6
+d2
+d5,4
+d5,4
+d5,4
+d13
+d2
+n4a0e7350 11,10)81ortMove(INT8U,Move*,INT8U
+d5,19
+d2
+n3f92b887 12,10(76isBadCapture(const 
+d3
+c,3
+c,37
+d6
+d13
+c,3
+c1
+d6
+d2
+d2
+d1
+d1
+d1
+d1
+d4
+d1
+d1
+d1
+d1
+nf0b437ca 62,10#G9BPromotion
+n274d6efd 5,10>9BCapture
+naad77501 4,10(77canMoveSimplified
+d2
+c,3
+c,41
+c1
+.............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+Obj 000004fb 4c27382d x64/Debug/main.obj 20191128194227 0 1 8.16.5
+s8744df58
+nXnXnXnXnXdTFdTFctfctfdTFsc2e97a98
+n d  d  n d  d  d  d  n n d  d  d  d  d  d  n d  d  d  n d  d  d  d  c  c  d  d  d  d  c  c  d  sd5c4c5b0
+nXnXn nXnXnXdTFnXlXlXlXlXlXlXlXlXlXlXlXlXlXnXdTFse80bf81
+nXnXdTFdTFctfctfnXdTFdTFdTFctfctfctfctfctfctfnXdTFdTFdTFctfctfctfctfctfctfnXdTFdTFd Fct c fc fc  nXdTFdTFctfctfdTFctfctfdTFctfctfdTFctfctfnXdTFdTFctfdTFctfdTFctfctfctfctfdTFc fctfctfctfnXdTFctfctfnXdTFdTFctfctfnXdTFctfctfdTFdTFnXdTFdTFctfctfd FdTFctfctfdTFnXdTFdTFctfct dTFdTFctfctfdTFctfct dTFdTFctfctfnXdTFdTFctfc fctfdTFctfc fctfdTFctfc fctfdTFctfc fctfnXdT dTFd Fd  c  c  c  c  c  d Fd  c  c  c  c  c  c  dTFdTFctfctfctfct ctfdTFdTFct ctfct ctfct ct dTFdTFdTFctfctfdTFdTFdTFdTFdT dTFdTFnXdTFdTFdTFctfctfdTFdTFdTFdTFdTFdTFn d  c  c  c  d  l l l l l l l l l l l l l l d  d  d  d  d  d  d  c  c  c  c  c  c  c  c  c  c  c  c  c  d  d  nXdTFdTFdTFdTFd Fd FdTFdT d Fd  nXdTFdTFnXdTFctfctfdTFdTFctfct dTFd Fd  d  d  d  d  d Fd Fd Fd Fd FnXnXnXdTFctfctfctfs7e0ce001
+nXdTFnXdTFdTFdTFdTFctfctfdTFctfctfctfdTFctfctfct dTFdTFdTFnXdTFdTFdTFctfctfct c fdTFdTFd Fctfc fd  d  d  dTFdTFdTFdTFdTFnXs17f1df28
+nXdTFdTFn nXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXl l l l dTFdT l l lXlXl dTFd Fd Fs6dabd838
+nXd Fd FnXEnd
+....
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+Obj 000004ff 6a67382e x64/Debug/bmp-to-ascii.obj 20191129081834 0 1 8.16.5
+s8744df58
+nXnXnXnXnXdTFdTFctfctfdTFsc2e97a98
+n d  d  n d  d  d  d  n n d  d  d  d  d  d  n d  d  d  n d  d  d  d  c  c  d  d  d  d  c  c  d  sd5c4c5b0
+nXnXn nXnXnXdTFnXlXlXlXlXlXlXlXlXlXlXlXlXlXnXdTFse80bf81
+nXnXdTFdTFctfctfnXdTFdTFdTFctfctfctfctfctfctfnXdTFdTFdTFctfctfctfctfctfctfnXdTFdTFdTFctfc fctfctfnXdTFdTFctfctfdTFctfctfdTFctfctfdTFctfctfnXdTFdTFctfdTFctfdTFctfctfctfctfdTFctfctfctfctfnXdTFctfctfnXdTFdTFctfctfnXdTFctfctfdTFdTFnXdTFdTFctfctfdTFdTFctfctfdTFnXdTFdTFctfct dTFdTFctfctfdTFctfct dTFdTFctfctfnXdTFdTFctfc fctfdTFctfctfctfdTFctfc fctfdTFctfc fctfnXdT dTFd Fd  c  c  c  c  c  d Fd  c  c  c  c  c  c  dTFdTFctfctfctfct ctfdTFdTFct ctfct ctfct ct dTFdTFdTFctfctfdTFdTFdTFdTFdT dTFdTFnXdTFdTFdTFctfctfdTFdTFdTFdTFdTFdTFnXdTFctfctfctfdTFl lXlXlXlXlXlXlXlXlXl lXlXlXdTFd Fd FdTFdT dTFdTFctfctfctfctfctfc fct c fctfctfctfct c fdTFd FnXdTFdTFdTFdTFd Fd FdTFdT dTFdT nXdTFdTFnXdTFctfctfdTFdTFctfct dTFdTFdTFd FdTFd Fd FdTFd Fd Fd Fd FnXnXnXdTFctfctfctfs2ad14d8
+nXdTFnXdTFdTFdTFdTFctfctfdTFctfctfctfdTFctfctfct dTFdTFdTFnXdTFdTFdTFcTFcTFcT c FdTFdTFd FcTFc Fd  d  d  dTFdTFdTFd FnXs17f1df28
+nXdTFdTFn nXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXl l l l dTFdT l l lXlXl dTFd Fd Fs4b3d5f4f
+n d  d  n End
+
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+Obj 000004f7 4c27382f x64/Debug/main.obj 20191129081835 0 1 8.16.5
+s8744df58
+nXnXnXnXnXdTFdTFctfctfdTFsc2e97a98
+n d  d  n d  d  d  d  n n d  d  d  d  d  d  n d  d  d  n d  d  d  d  c  c  d  d  d  d  c  c  d  sd5c4c5b0
+nXnXn nXnXnXdTFnXlXlXlXlXlXlXlXlXlXlXlXlXlXnXdTFse80bf81
+nXnXdTFdTFctfctfnXdTFdTFdTFctfctfctfctfctfctfnXdTFdTFdTFctfctfctfctfctfctfnXdTFdTFdTFctfc fctfctfnXdTFdTFctfctfdTFctfctfdTFctfctfdTFctfctfnXdTFdTFctfdTFctfdTFctfctfctfctfdTFctfctfctfctfnXdTFctfctfnXdTFdTFctfctfnXdTFctfctfdTFdTFnXdTFdTFctfctfdTFdTFctfctfdTFnXdTFdTFctfct dTFdTFctfctfdTFctfct dTFdTFctfctfnXdTFdTFctfc fctfdTFctfctfctfdTFctfc fctfdTFctfc fctfnXdT dTFd Fd  c  c  c  c  c  d Fd  c  c  c  c  c  c  dTFdTFctfctfctfct ctfdTFdTFct ctfct ctfct ct dTFdTFdTFctfctfdTFdTFdTFdTFdT dTFdTFnXdTFdTFdTFctfctfdTFdTFdTFdTFdTFdTFnXdTFctfctfctfdTFl lXlXlXlXlXlXlXlXlXl lXlXlXdTFd Fd FdTFdT dTFdTFctfctfctfctfctfc fct c fctfctfctfct c fdTFd FnXdTFdTFdTFdTFd Fd FdTFdT dTFdT nXdTFdTFnXdTFctfctfdTFdTFctfct dTFdTFdTFd FdTFd Fd FdTFd Fd Fd Fd FnXnXnXdTFctfctfctfs2ad14d8
+nXdTFnXdTFdTFdTFdTFctfctfdTFctfctfctfdTFctfctfct dTFdTFdTFn d  d  d  c  c  c  c  d  d  d  c  c  d  d  d  d  d  d  d  nXs17f1df28
+nXdTFdTFn nXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXl l l l dTFdT l l lXlXl dTFd Fd Fs6dabd838
+nXd Fd FnXEnd
+........
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+Obj 00000084 8a73815 x64/Debug/macroutils.obj 20191128131519 0 1 8.16.5
+s8744df58
+nXnXnXnXnXdTFdTFctfctfdTFs185b33a5
+nXdTFdTFdTFEnd
+...........
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+Obj 000004f2 6a673825 x64/Debug/bmp-to-ascii.obj 20191128190917 0 1 8.16.5
+s8744df58
+nXnXnXnXnXdTFdTFctfctfdTFsc2e97a98
+n d  d  n d  d  d  d  n n d  d  d  d  d  d  n d  d  d  n d  d  d  d  c  c  d  d  d  d  c  c  d  sd5c4c5b0
+nXnXn nXnXnXdTFnXlXlXlXlXlXlXlXlXlXlXlXlXlXnXdTFs9e414f6d
+nXnXdTFdTFcTFcTFnXdTFdTFdTFcTFcTFcTFcTFcTFcTFnXdTFdTFdTFcTFcTFcTFcTFcTFcTFnXdTFdTFd FcT c Fc Fc  nXdTFdTFcTFcTFdTFcTFcTFdTFcTFcTFdTFcTFcTFnXdTFdTFcTFdTFcTFdTFcTFcTFcTFcTFdTFc FcTFcTFcTFnXdTFctfctfnXdTFdTFctfctfnXdTFctfctfdTFdTFnXdTFdTFctfctfd FdTFctfctfdTFnXdTFdTFcTFcT dTFdTFcTFcTFdTFcTFcT dTFdTFcTFcTFnXdTFdTFcTFc FcTFdTFcTFc FcTFdTFcTFc FcTFdTFcTFc FcTFnXdT dTFd Fd  c  c  c  c  c  d Fd  c  c  c  c  c  c  dTFdTFcTFcT cTFcT cTFdTFdTFcT cT cT cTFcT cT dTFdTFdTFcTFcTFdTFdTFdTFdTFdT dTFdTFnXdTFdTFdTFcTFcTFdTFdTFdTFdTFdTFdTFnXdTFctfctfctfdTFlXlXlXlXlXlXlXlXlXlXlXlXlXlXdTFd Fd FdTFdT d Fd Fctfctfctfctfc fctfc fd Fd  nXdTFdTFdTFdTFd Fd FdTFdT d Fd  nXdTFdTFnXdTFcTFcTFdTFdTFcTFcT dTFd Fd  d  d  d  d  d Fd Fd Fd Fd FnXnXnXdTFctfctfctFs7e0ce001
+nXdTFnXdTFdTFdTFdTFctfctfdTFctfctFctfdTFctfctFct dTFdTFdTFnXdTFdTFdTFctfctfct c fdTFdTFd Fctfc fd  d  d  dTFdTFdTFdTFdTFnXs17f1df28
+nXdTFdTFn nXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXl l l l dTFdT l l lXlXl dTFd Fd Fs4b3d5f4f
+n d  d  n End
+.............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+0000fe
+S8744df58
+src ../utils.h 20191127080523 13523e3b
+n26c2309 371,10convertFromSquare(INT8S,INT8S,char*)
+nb6efad9f 47,9distance(INT8U,INT8U)
+na8aef75e 5,9)8E_fil
+n12b19127 5,9<9Drank
+nb890a641 10,12sliding_attack(Direction[],INT8U,INT64U)
+d4,11
+d3
+c
+c,15
+d5
+000163
+Se5580b9a
+src ../alphabeta.h 20191128131515 af1a471e
+n89135c00 7,14evaluate()
+d20
+n5dd9c1ef 8,14quiescence(short int,short int,INT8U)
+d23
+d7
+d13,13
+d4
+c,3
+c,48
+d11
+c,3
+c1
+c1
+d12
+c,3
+c1
+c1
+d25
+d2
+d21
+n6c0d2394 8,14search(INT8U,short int,short int,bool)
+d21
+d6
+d15
+c,3
+c,27
+c,35
+c,50
+d20
+d6,13
+d2
+c,3
+c,20
+d2
+d2
+d4
+d27
+d28
+d2
+d17
+d36
+nbb9bea7b 11,14#G63Bas
+
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+Obj 000000d1 dc67381b x64/Debug/magicbitboard.obj 20191128144328 0 1 8.16.5
+s8744df58
+nXnXnXnXnXdTFdTFctfctfdTFsd5c4c5b0
+nXnXn nXnXn d  n l l l l l l l l l l l l l n d  sd5a76e95
+nXdTFdTFdTFdTFdTFdTFdTFdTFEnd
+..............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+Obj 00000084 8a7381a x64/Debug/macroutils.obj 20191128144327 0 1 8.16.5
+s8744df58
+nXnXnXnXnXdTFdTFctfctfdTFs185b33a5
+nXdTFdTFdTFEnd
+...........
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+Obj 000004ea 4c273828 x64/Debug/main.obj 20191128190919 0 1 8.16.5
+s8744df58
+nXnXnXnXnXdTFdTFctfctfdTFsc2e97a98
+n d  d  n d  d  d  d  n n d  d  d  d  d  d  n d  d  d  n d  d  d  d  c  c  d  d  d  d  c  c  d  sd5c4c5b0
+nXnXn nXnXnXdTFnXlXlXlXlXlXlXlXlXlXlXlXlXlXnXdTFs9e414f6d
+n n d  d  c  c  n d  d  d  c  c  c  c  c  c  n d  d  d  c  c  c  c  c  c  n d  d  d  c  c  c  c  n d  d  c  c  d  c  c  d  c  c  d  c  c  n d  d  c  d  c  d  c  c  c  c  d  c  c  c  c  nXdTFctfctfnXdTFdTFctfctfnXdTFctfctfdTFdTFnXdTFdTFctfctfd FdTFctfctfdTFn d  d  c  c  d  d  c  c  d  c  c  d  d  c  c  n d  d  c  c  c  d  c  c  c  d  c  c  c  d  c  c  c  n d  d  d  d  c  c  c  c  c  d  d  c  c  c  c  c  c  d  d  c  c  c  c  c  d  d  c  c  c  c  c  c  d  d  d  c  c  d  d  d  d  d  d  d  n d  d  d  c  c  d  d  d  d  d  d  nXdTFctfctfctfdTFlXlXlXlXlXlXlXlXlXlXlXlXlXlXdTFd Fd FdTFdT d Fd Fctfctfctfctfc fctfc fd Fd  nXdTFdTFdTFdTFd Fd FdTFdT d Fd  nXdTFdTFn d  c  c  d  d  c  c  d  d  d  d  d  d  d  d  d  d  d  d  nXnXnXdT ctfctfct s7e0ce001
+nXdTFnXdTFdTFdTFdTFctfctfdTFctfct ctfdTFctfct ct dTFdTFdTFnXdTFdTFdTFctfctfct c fdTFdTFd Fctfc fd  d  d  dTFdTFdTFdTFdTFnXs17f1df28
+nXdTFdTFn nXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXl l l l dTFdT l l lXlXl dTFd Fd Fs6dabd838
+nXd Fd FnXEnd
+.....
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+Obj 00000293 bf273818 x64/Debug/utils.obj 20191128131520 0 1 8.16.5
+s8744df58
+nXnXnXnXnXdTFdTFctfctfdTFsc2e97a98
+n d  d  n d  d  d  d  n n d  d  d  d  d  d  n d  d  d  n d  d  d  d  c  c  d  d  d  d  c  c  d  sd5c4c5b0
+nXnXn nXnXn d  n l l l l l l l l l l l l l n d  s17393654
+nXdTFdTFdTFdTFdTFnXdTFdTFdTFdTFnXdTFdTFdTFctfctfdTFctfctfnXdTFdTFdTFctfctfdTFctfctfnXdTFdTFdTFdTFdTFdTFdT dTFnXdTFdTFdTFdTFdTFdTFdTFdTFdTFnXdTFdTFdTFctfctfdTFctfctfdTFctfctfdTFctfctfdTFctfctfdTFctfctfdTFctfctfdTFctfctfnXdTFdTFdTFdTFdTFdTFdTFdTFdTFdTFnXdTFdTFdTFdTFdTFdTFdTFnXdTFct cTfdTFcTfcTFnXdTFctfct ct dTFdTFd Fc fc  dTFct ctFnXdTFdTFdTFdTFd Fd FdTFdTFnXnXdTFdTFdTFdTFn d  End
+............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+000548
+S70e91cd0
+src ../mover.h 20191128130734 a685b5f1
+na1815341 213,10mover::isAttacked(INT8U,INT8U)
+n228c7906 5,10(H1ByPawn(char,INT8S
+d2
+d2
+d7
+nb8c17fbe 11,10(77fillSquare(color::Type,piece::Type
+n7e845b27 12,10(76clearSquare(
+d3,17
+n6e03f9dc 19,10(71see_Blind(const Move&
+d3
+c,3
+c,37
+d6
+d9
+n9154deba 12,10)77saveMove(INT8U,INT8U,INT8U,INT8U
+d25
+d6
+c,3
+c,32
+d2
+d6
+c,3
+c,16
+d3,28
+n8e1afd3 278,10(71generatePawnMove(INT8U,bool
+d2
+d2
+c,3
+c,20
+d5
+d4
+c,3
+c,20
+d8
+c,3
+c,20
+d5
+d4
+c,3
+c,20
+nece4b777 8,10#pJ9Captu
+d2
+d2
+c,3
+c,22
+c,50
+d5
+c,3
+c,22
+c,50
+d7
+c,3
+c,22
+c,50
+d5
+c,3
+c,22
+c,50
+nc1cc04ab 7,10>88heckAndSaveEnapassantCaptureMov
+d2
+d2
+c,3
+c,21
+d5
+c,3
+c,21
+d7
+c,3
+c,21
+d5
+c,3
+c,21
+n9f3849e1 7,11{F6Move(Move*
+d5
+d2
+d2
+d2
+c,3
+c1
+c1
+c1
+c1
+d7
+d2
+c,3
+c1
+c1
+c1
+c1
+c1
+d8
+d2
+c,3
+c1
+c1
+c1
+c1
+d6
+d2
+c,3
+c1
+c1
+c1
+c1
+c1
+d8,21
+d2
+d3
+c,3
+c,53
+d12
+d2,11
+d2
+d2
+d7
+n3e22bcfb 19,11)F1QuiscenceMove(Move*
+d5,21
+d2
+d3
+c,3
+c,53
+d11
+d4
+d7
+n8245374e 19,10[76makeMove(
+d10
+c,3
+c1
+c1
+d12
+l9
+l4
+l5
+l4
+l4
+l5
+l4
+l3
+l4
+l5
+l4
+l4
+l5
+l4
+d4
+d2
+d5,4
+d5,4
+d6,4
+d8
+d9
+c,4
+c,38
+c1
+c1,1
+c,35
+c1
+c,34
+d11
+d2
+n937cdefb 11,10>7Fun
+d10
+d5
+d14
+d6
+d2
+d5,4
+d5,4
+d5,4
+d13
+d2
+n4a0e7350 11,10(76sortMove(INT8U,Move*,
+d5,19
+d2
+n41dc94dd 65,10>76isBadCapture(const 
+d3
+c,3
+c,37
+d6
+d13
+c,3
+c1
+d6
+d2
+d2
+d8
+nf0b437ca 13,10#p9BPromotion
+n274d6efd 5,10}9BCapture
+naad77501 4,10(77canMoveSimplified
+d2
+c,3
+c,41
+c1
+
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+Obj 000000d1 dc673820 x64/Debug/magicbitboard.obj 20191128144842 0 1 8.16.5
+s8744df58
+nXnXnXnXnXdTFdTFctfctfdTFsd5c4c5b0
+nXnXn nXnXnXdTFnXlXlXlXlXlXlXlXlXlXlXlXlXlXnXdTFsd5a76e95
+nXdTFdTFdTFdTFdTFdTFdTFdTFEnd
+..............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+Obj 00000293 bf27381d x64/Debug/utils.obj 20191128144329 0 1 8.16.5
+s8744df58
+nXnXnXnXnXdTFdTFctfctfdTFsc2e97a98
+n d  d  n d  d  d  d  n n d  d  d  d  d  d  n d  d  d  n d  d  d  d  c  c  d  d  d  d  c  c  d  sd5c4c5b0
+nXnXn nXnXn d  n l l l l l l l l l l l l l n d  s17393654
+nXdTFdTFdTFdTFdTFnXdTFdTFdTFdTFnXdTFdTFdTFctfctfdTFctfctfnXdTFdTFdTFctfctfdTFctfctfnXdTFdTFdTFdTFdTFdTFdT dTFnXdTFdTFdTFdTFdTFdTFdTFdTFdTFnXdTFdTFdTFctfctfdTFctfctfdTFctfctfdTFctfctfdTFctfctfdTFctfctfdTFctfctfdTFctfctfnXdTFdTFdTFdTFdTFdTFdTFdTFdTFdTFnXdTFdTFdTFdTFdTFdTFdTFnXdTFct ctfdTFctfctfnXdTFctfct ct dTFdTFd Fc fc  dTFct ctfnXdTFdTFdTFdTFd Fd FdTFdTFnXnXdTFdTFdTFdTFn d  End
+............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+000163
+S8e6d083c
+src ../alphabeta.h 20191128144840 41b39bec
+n89135c00 7,14evaluate()
+d20
+n5dd9c1ef 8,14quiescence(short int,short int,INT8U)
+d23
+d7
+d13,13
+d4
+c,3
+c,48
+d11
+c,3
+c1
+c1
+d12
+c,3
+c1
+c1
+d25
+d2
+d21
+n6c0d2394 8,14search(INT8U,short int,short int,bool)
+d21
+d6
+d15
+c,3
+c,27
+c,35
+c,50
+d20
+d6,13
+d2
+c,3
+c,20
+d2
+d2
+d4
+d27
+d28
+d2
+d17
+d36
+n3836ebeb 11,14#G63Bas
+.....
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+Obj 00000084 8a7381f x64/Debug/macroutils.obj 20191128144841 0 1 8.16.5
+s8744df58
+nXnXnXnXnXdTFdTFctfctfdTFs185b33a5
+nXdTFdTFdTFEnd
+...........
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+00015d
+S2ad14d8
+src ../alphabeta.h 20191129081832 953e6c6a
+na584835 7,14evaluate()
+d20
+n5dd9c1ef 8,14quiescence(short int,short int,INT8U)
+d23
+d7
+d13,13
+d4
+c,3
+c,48
+d11
+c,3
+c1
+c1
+d12
+c,3
+c1
+c1
+d25
+d2
+d21
+n2ed322c8 8,14search(INT8U,short int,short int,bool)
+d21
+d6
+d15
+c,3
+c,27
+c,35
+c,50
+d20
+d6,13
+d2
+c,3
+c,20
+d2
+d2
+d4
+d27
+d28
+d2
+d17
+n3836ebeb 44,14#G63Bas
+...........
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+Obj 00000293 bf273822 x64/Debug/utils.obj 20191128144843 0 1 8.16.5
+s8744df58
+nXnXnXnXnXdTFdTFctfctfdTFsc2e97a98
+n d  d  n d  d  d  d  n n d  d  d  d  d  d  n d  d  d  n d  d  d  d  c  c  d  d  d  d  c  c  d  sd5c4c5b0
+nXnXn nXnXnXdTFnXlXlXlXlXlXlXlXlXlXlXlXlXlXnXdTFs17393654
+nXdTFdTFdTFdTFdTFnXdTFdTFdTFdTFnXdTFdTFdTFctfctfdTFctfctfnXdTFdTFdTFctfctfdTFctfctfnXdTFdTFdTFdTFdTFdTFdT dTFnXdTFdTFdTFdTFdTFdTFdTFdTFdTFnXdTFdTFdTFctfctfdTFctfctfdTFctfctfdTFctfctfdTFctfctfdTFctfctfdTFctfctfdTFctfctfnXdTFdTFdTFdTFdTFdTFdTFdTFdTFdTFnXdTFdTFdTFdTFdTFdTFdTFnXdTFct ctfdTFctfctfnXdTFctfct ct dTFdTFd Fc fc  dTFct ctfnXdTFdTFdTFdTFd Fd FdTFdTFnXnXdTFdTFdTFdTFn d  End
+............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+000560
+S19fe2426
+src ../mover.h 20191128173457 8fe03db2
+na1815341 213,10mover::isAttacked(INT8U,INT8U)
+n228c7906 5,10(H1ByPawn(char,INT8S
+d2
+d2
+d7
+n564db8f4 11,10(77fillSquare(color::Type,piece::Type
+d7
+c,3
+c,28
+nb73d50c4 14,10(76clearSquare(
+d3,17
+d7
+c,3
+c,28
+n6e03f9dc 21,10(71see_Blind(const Move&
+d3
+c,3
+c,37
+d6
+d9
+n9154deba 12,10)77saveMove(INT8U,INT8U,INT8U,INT8U
+d25
+d6
+c,3
+c,32
+d2
+d6
+c,3
+c,16
+d3,28
+n8e1afd3 278,10(71generatePawnMove(INT8U,bool
+d2
+d2
+c,3
+c,20
+d5
+d4
+c,3
+c,20
+d8
+c,3
+c,20
+d5
+d4
+c,3
+c,20
+nece4b777 8,10#pJ9Captu
+d2
+d2
+c,3
+c,22
+c,50
+d5
+c,3
+c,22
+c,50
+d7
+c,3
+c,22
+c,50
+d5
+c,3
+c,22
+c,50
+nc1cc04ab 7,10>88heckAndSaveEnapassantCaptureMov
+d2
+d2
+c,3
+c,21
+d5
+c,3
+c,21
+d7
+c,3
+c,21
+d5
+c,3
+c,21
+n9f3849e1 7,11{F6Move(Move*
+d5
+d2
+d2
+d2
+c,3
+c1
+c1
+c1
+c1
+d7
+d2
+c,3
+c1
+c1
+c1
+c1
+c1
+d8
+d2
+c,3
+c1
+c1
+c1
+c1
+d6
+d2
+c,3
+c1
+c1
+c1
+c1
+c1
+d8,21
+d2
+d3
+c,3
+c,53
+d12
+d2,11
+d2
+d2
+d7
+n3e22bcfb 19,11)F1QuiscenceMove(Move*
+d5,21
+d2
+d3
+c,3
+c,53
+d11
+d4
+d7
+n8245374e 19,10[76makeMove(
+d10
+c,3
+c1
+c1
+d12
+l9
+l4
+l5
+l4
+l4
+l5
+l4
+l3
+l4
+l5
+l4
+l4
+l5
+l4
+d4
+d2
+d5,4
+d5,4
+d6,4
+d8
+d9
+c,4
+c,38
+c1
+c1,1
+c,35
+c1
+c,34
+d11
+d2
+n937cdefb 11,10>7Fun
+d10
+d5
+d14
+d6
+d2
+d5,4
+d5,4
+d5,4
+d13
+d2
+n4a0e7350 11,10(76sortMove(INT8U,Move*,
+d5,19
+d2
+n41dc94dd 65,10>76isBadCapture(const 
+d3
+c,3
+c,37
+d6
+d13
+c,3
+c1
+d6
+d2
+d2
+d8
+nf0b437ca 13,10#p9BPromotion
+n274d6efd 5,10}9BCapture
+naad77501 4,10(77canMoveSimplified
+d2
+c,3
+c,41
+c1
+000162
+S7e0ce001
+src ../alphabeta.h 20191128173604 99d44930
+na584835 7,14evaluate()
+d20
+n5dd9c1ef 8,14quiescence(short int,short int,INT8U)
+d23
+d7
+d13,13
+d4
+c,3
+c,48
+d11
+c,3
+c1
+c1
+d12
+c,3
+c1
+c1
+d25
+d2
+d21
+n6c0d2394 8,14search(INT8U,short int,short int,bool)
+d21
+d6
+d15
+c,3
+c,27
+c,35
+c,50
+d20
+d6,13
+d2
+c,3
+c,20
+d2
+d2
+d4
+d27
+d28
+d2
+d17
+d36
+n3836ebeb 11,14#G63Bas
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+0006c3
+S9e414f6d
+src ../mover.h 20191128173457 8fe03db2
+n8dd21a22 13,10mover::isPiece(piece::Type,INT8S)
+neae2cbce 5,10(71hasLeaperAttack(INT8S,piece::Type
+d4,15
+d8
+c,3
+c,13
+n3a4e1c8b 9,10)A1StraightAttack(INT8U,INT8S,int
+d8
+d2
+d2
+c,4
+c,23
+c,94
+c1,1
+c,20
+c,91
+n662156ea 17,10<ANDiagonal
+d8
+d2
+d2
+c,4
+c,23
+c,96
+c1,1
+c,20
+c,93
+nee5d161f 17,10<ANBishop
+d8
+d2
+d2
+c,4
+c,22
+c1,1
+c,19
+ndb0320ab 17,10(97AttackedByPawn(char
+d3
+d5
+c,3
+c,13
+d7
+c,3
+c,13
+d10
+c,3
+c,13
+d7
+c,3
+c,13
+n51e27db1 9,10]HC
+d3
+d6
+c,34
+d6
+c,34
+d6
+c,3
+c1
+c1
+c1
+d6
+c,3
+c1
+c1
+c1
+n564db8f4 37,10(71fillSquare(color::Type,piece::Type,INT8U
+d7
+c,3
+c,28
+nb73d50c4 14,10}76clearSquare(
+d3,17
+d7
+c,3
+c,28
+n6e03f9dc 21,10(71see_Blind(const Move&
+d3
+c,3
+c,37
+d6
+d9
+n9154deba 12,10]77saveMove(INT8U,INT8U,INT8U,INT8U
+d25
+d6
+c,3
+c,32
+d2
+d6
+c,3
+c,16
+d3,28
+n6a86ea3e 18,10(71generatePawnMove88(INT8S,bool
+d2
+d2
+c,3
+c,20
+d5
+d4
+c,3
+c,20
+d8
+c,3
+c,20
+d5
+d4
+c,3
+c,20
+n39f8dc74 8,10#QJ6Capture88(
+d2
+d5
+c,3
+c,14
+c,42
+d7
+c,3
+c,14
+c,42
+d10
+c,3
+c,14
+c,42
+d7
+c,3
+c,14
+c,42
+nce16269e 7,11>F6Move(Move*
+d5
+d2
+d2
+d2
+c,3
+c1
+c1
+c1
+c1
+d6
+d2
+c,3
+c1
+c1
+c1
+c1
+c1
+d8
+d2
+c,3
+c1
+c1
+c1
+c1
+d6
+d2
+c,3
+c1
+c1
+c1
+c1
+c1
+d8,18
+d2
+d3
+c,3
+c1
+d5,4
+d2,15
+d10
+d5
+d2
+d5,4
+d10
+n8b29c8fa 14,11>F1QuiscenceMove(Move*
+d5,18
+d2
+d3
+c,3
+c1
+d5,4
+d2,15
+d11
+d5
+d2
+d11
+n8245374e 273,10)76makeMove(
+d10
+c,3
+c1
+c1
+d12
+l9
+l4
+l5
+l4
+l4
+l5
+l4
+l3
+l4
+l5
+l4
+l4
+l5
+l4
+d4
+d2
+d5,4
+d5,4
+d6,4
+d8
+d9
+c,4
+c,38
+c1
+c1,1
+c,35
+c1
+c,34
+d11
+d2
+n937cdefb 11,10}7Fun
+d10
+d5
+d14
+d6
+d2
+d5,4
+d5,4
+d5,4
+d13
+d2
+n4a0e7350 11,10)81ortMove(INT8U,Move*,INT8U
+d5,19
+d2
+n3f92b887 12,10(76isBadCapture(const 
+d3
+c,3
+c,37
+d6
+d13
+c,3
+c1
+d6
+d2
+d2
+d1
+d1
+d1
+d1
+d4
+d1
+d1
+d1
+d1
+nf0b437ca 62,10#G9BPromotion
+n274d6efd 5,10>9BCapture
+naad77501 4,10(77canMoveSimplified
+d2
+c,3
+c,41
+c1
+.....
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+00000000 00000200
+.............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+0006e4
+Sac2e9b80
+src ../mover.h 20191128193854 cead41a
+n8dd21a22 13,10mover::isPiece(piece::Type,INT8S)
+neae2cbce 5,10(71hasLeaperAttack(INT8S,piece::Type
+d4,15
+d8
+c,3
+c,13
+n3a4e1c8b 9,10)A1StraightAttack(INT8U,INT8S,int
+d8
+d2
+d2
+c,4
+c,23
+c,94
+c1,1
+c,20
+c,91
+n662156ea 17,10<ANDiagonal
+d8
+d2
+d2
+c,4
+c,23
+c,96
+c1,1
+c,20
+c,93
+nee5d161f 17,10<ANBishop
+d8
+d2
+d2
+c,4
+c,22
+c1,1
+c,19
+ndb0320ab 17,10(97AttackedByPawn(char
+d3
+d5
+c,3
+c,13
+d7
+c,3
+c,13
+d10
+c,3
+c,13
+d7
+c,3
+c,13
+n51e27db1 9,10]HC
+d3
+d6
+c,34
+d6
+c,34
+d6
+c,3
+c1
+c1
+c1
+d6
+c,3
+c1
+c1
+c1
+n564db8f4 37,10(71fillSquare(color::Type,piece::Type,INT8U
+d7
+c,3
+c,28
+nb73d50c4 14,10}76clearSquare(
+d3,17
+d7
+c,3
+c,28
+n6e03f9dc 21,10(71see_Blind(const Move&
+d3
+c,3
+c,37
+d6
+d9
+n9154deba 12,10]77saveMove(INT8U,INT8U,INT8U,INT8U
+d25
+d6
+c,3
+c,32
+d2
+d6
+c,3
+c,16
+d3,28
+n6a86ea3e 18,10(71generatePawnMove88(INT8S,bool
+d2
+d2
+c,3
+c,20
+d5
+d4
+c,3
+c,20
+d8
+c,3
+c,20
+d5
+d4
+c,3
+c,20
+n39f8dc74 8,10#QJ6Capture88(
+d2
+d5
+c,3
+c,14
+c,42
+d7
+c,3
+c,14
+c,42
+d10
+c,3
+c,14
+c,42
+d7
+c,3
+c,14
+c,42
+nce16269e 7,11>F6Move(Move*
+d5
+d2
+d2
+d2
+c,3
+c1
+c1
+c1
+c1
+d6
+d2
+c,3
+c1
+c1
+c1
+c1
+c1
+d8
+d2
+c,3
+c1
+c1
+c1
+c1
+d6
+d2
+c,3
+c1
+c1
+c1
+c1
+c1
+d8,18
+d2
+d3
+c,3
+c1
+d5,4
+d2,15
+d10
+d5
+d2
+d5,4
+d10
+n8b29c8fa 14,11>F1QuiscenceMove(Move*
+d5,18
+d2
+d3
+c,3
+c1
+d5,4
+d2,15
+d11
+d5
+d2
+d11
+n5c926bee 273,10)76makeMove(
+d10
+c,3
+c1
+c1
+d12
+l9
+l4
+l5
+l4
+l4
+l5
+l4
+l3
+l4
+l5
+l4
+l4
+l5
+l4
+d4
+d2
+d5,4
+d5,4
+d6,4
+d8
+d9
+c,4
+c,38
+c1
+c1,1
+c,36
+c,60
+c,112
+c,136
+c1
+c,35
+c,59
+c,111
+c,135
+d11
+d2
+n937cdefb 11,10}7Fun
+d10
+d5
+d14
+d6
+d2
+d5,4
+d5,4
+d5,4
+d13
+d2
+n4a0e7350 11,10)81ortMove(INT8U,Move*,INT8U
+d5,19
+d2
+n3f92b887 12,10(76isBadCapture(const 
+d3
+c,3
+c,37
+d6
+d13
+c,3
+c1
+d6
+d2
+d2
+d1
+d1
+d1
+d1
+d4
+d1
+d1
+d1
+d1
+nf0b437ca 62,10#G9BPromotion
+n274d6efd 5,10>9BCapture
+naad77501 4,10(77canMoveSimplified
+d2
+c,3
+c,41
+c1
+....
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+0006e4
+Se80bf81
+src ../mover.h 20191128194220 5ce0693e
+n8dd21a22 13,10mover::isPiece(piece::Type,INT8S)
+neae2cbce 5,10(71hasLeaperAttack(INT8S,piece::Type
+d4,15
+d8
+c,3
+c,13
+n3a4e1c8b 9,10)A1StraightAttack(INT8U,INT8S,int
+d8
+d2
+d2
+c,4
+c,23
+c,94
+c1,1
+c,20
+c,91
+n662156ea 17,10<ANDiagonal
+d8
+d2
+d2
+c,4
+c,23
+c,96
+c1,1
+c,20
+c,93
+nee5d161f 17,10<ANBishop
+d8
+d2
+d2
+c,4
+c,22
+c1,1
+c,19
+ndb0320ab 17,10(97AttackedByPawn(char
+d3
+d5
+c,3
+c,13
+d7
+c,3
+c,13
+d10
+c,3
+c,13
+d7
+c,3
+c,13
+n51e27db1 9,10]HC
+d3
+d6
+c,34
+d6
+c,34
+d6
+c,3
+c1
+c1
+c1
+d6
+c,3
+c1
+c1
+c1
+n564db8f4 37,10(71fillSquare(color::Type,piece::Type,INT8U
+d7
+c,3
+c,28
+nb73d50c4 14,10}76clearSquare(
+d3,17
+d7
+c,3
+c,28
+n6e03f9dc 21,10(71see_Blind(const Move&
+d3
+c,3
+c,37
+d6
+d9
+n9154deba 12,10]77saveMove(INT8U,INT8U,INT8U,INT8U
+d25
+d6
+c,3
+c,32
+d2
+d6
+c,3
+c,16
+d3,28
+n6a86ea3e 18,10(71generatePawnMove88(INT8S,bool
+d2
+d2
+c,3
+c,20
+d5
+d4
+c,3
+c,20
+d8
+c,3
+c,20
+d5
+d4
+c,3
+c,20
+n39f8dc74 8,10#QJ6Capture88(
+d2
+d5
+c,3
+c,14
+c,42
+d7
+c,3
+c,14
+c,42
+d10
+c,3
+c,14
+c,42
+d7
+c,3
+c,14
+c,42
+nce16269e 7,11>F6Move(Move*
+d5
+d2
+d2
+d2
+c,3
+c1
+c1
+c1
+c1
+d6
+d2
+c,3
+c1
+c1
+c1
+c1
+c1
+d8
+d2
+c,3
+c1
+c1
+c1
+c1
+d6
+d2
+c,3
+c1
+c1
+c1
+c1
+c1
+d8,18
+d2
+d3
+c,3
+c1
+d5,4
+d2,15
+d10
+d5
+d2
+d5,4
+d10
+n8b29c8fa 14,11>F1QuiscenceMove(Move*
+d5,18
+d2
+d3
+c,3
+c1
+d5,4
+d2,15
+d11
+d5
+d2
+d11
+ne40e3692 273,10)76makeMove(
+d10
+c,3
+c1
+c1
+d12
+l9
+l4
+l5
+l4
+l4
+l5
+l4
+l3
+l4
+l5
+l4
+l4
+l5
+l4
+d4
+d2
+d5,4
+d5,4
+d6,4
+d8
+d9
+c,4
+c,38
+c1
+c1,1
+c,36
+c,53
+c,103
+c,120
+c1
+c,35
+c,52
+c,102
+c,119
+d11
+d2
+n937cdefb 11,10}7Fun
+d10
+d5
+d14
+d6
+d2
+d5,4
+d5,4
+d5,4
+d13
+d2
+n4a0e7350 11,10)81ortMove(INT8U,Move*,INT8U
+d5,19
+d2
+n3f92b887 12,10(76isBadCapture(const 
+d3
+c,3
+c,37
+d6
+d13
+c,3
+c1
+d6
+d2
+d2
+d1
+d1
+d1
+d1
+d4
+d1
+d1
+d1
+d1
+nf0b437ca 62,10#G9BPromotion
+n274d6efd 5,10>9BCapture
+naad77501 4,10(77canMoveSimplified
+d2
+c,3
+c,41
+c1
+....
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+Dir 00000174
+o12 4c27382f 5800
+o12 6a67382e 5200
+o12 4c27382d 4c00
+o12 6a67382c 3e00
+o12 4c27382b 2a00
+o11 6a67382a 200
+o12 bf273829 3200
+o12 4c273828 6e00
+o12 dc673827 2600
+o11 8a73826 2200
+o12 6a673825 6000
+o12 bf273822 8a00
+o12 dc673820 7e00
+o11 8a7381f 8600
+o12 bf27381d 8000
+o12 dc67381b 6a00
+o11 8a7381a 6c00
+o12 bf273818 7400
+o12 dc673816 3000
+o11 8a73815 5e00
+End
+...........
+...............
+...............
+...............
+...............
+...............
+...............
+...............
+...............

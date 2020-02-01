@@ -1,0 +1,105 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+	<link rel="stylesheet" href="chessboard.css"">
+</head>
+
+<body>
+    <section>
+		<div class="container">
+		    <div class="toppane">
+			    <button class="button button1" id="startButton">Game</button>
+				<button class="button button1" id="autoMoveButton">Auto Move</button>
+				<button class="button button1" id="loadFenButton">Load FEN: </button>
+				<input type="text" name="fenText" id="fenId"><br>
+		    </div>
+		    <div class="leftpane">
+			    <div id="board2" style="width: 400px"></div>
+		    </div>
+		    <div class="middlepane">
+			    <table id="stepTable" style="width:100%">
+				<tr>
+				    <th align="left">Steps: </th>
+				</tr>
+				</table>
+			</div>
+			<div class="middlepane2">		
+				<table id="stepTable2" style="width:100%">
+				<tr>
+				    <th align="left">Steps2: </th>
+				</tr>
+				</table>
+			</div>
+		    <div class="rightpane">
+			    <table id="messageTable" style="width:100%">
+				    </tr>
+				    <tr>
+					     <th align="left">Messages: </th>
+				    </tr>
+				    <tr>
+				        <td><br></td>
+				    </tr>
+					<tr>
+				        <td>This my first message!</td>
+				    </tr>
+					<tr>
+				        <td>This my second message!</td>
+				    </tr>
+				</table>
+		    </div>
+		</div>
+	</section>
+</body>
+
+<script src="jquery-3.4.1.min.js"></script>
+<script src="chessboard.js"></script>
+<script>
+    var worker = new Worker("wasm_worker.js");
+	//var worker2 = new Worker("wasm_worker2.js");
+	
+	var boardRef;
+	
+	function pressLoadBtn(){		
+	    var inputFen = $('#fenId').val()
+		console.log(inputFen)
+	    boardRef.loadFen(inputFen)
+	}
+	
+	function pressAutoBtn(){		
+	    var inputFen = $('#fenId').val()
+
+		//console.log("The result of fib(5) is:", js_wrapped_fib(5));
+		worker.postMessage(inputFen);
+		//worker2.postMessage(inputFen);
+	}
+	
+	worker.addEventListener('message', function(event) {
+	   const {res, tim} = event.data;
+	   
+	   boardRef.loadStep(res)
+	   
+	   console.log("ez itt a fo thread" + res + " ccc " + tim);
+	});
+	
+	<!-- worker2.addEventListener('message', function(event) { -->
+	   <!-- const {res2, tim2} = event.data; -->
+	   
+	   <!-- console.log("ez itt a fo2 thread" + res2 + " ccc " + tim2);  -->
+	<!-- }); -->
+		
+		
+    ;(function() {
+	    function init() {
+		    var board2 = Chessboard('board2');
+			boardRef = board2;
+			$('#startButton').on('click', board2.start)
+			$('#loadFenButton').on('click', pressLoadBtn)
+			$('#autoMoveButton').on('click', pressAutoBtn)
+		}
+		
+		$(document).ready(init)
+	})();
+</script>
+
+</html>
