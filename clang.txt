@@ -1,0 +1,1 @@
+singu@vbox:~$ /usr/bin/clang++ -std=c++14  -fsanitize=memory -fsanitize-memory-track-origins=2 -fno-omit-frame-pointer -O1 -g tests/main.cpp -O1 -g tests/utils.cpp -O1 -g tests/macroutils.cpp -O1 -g tests/magicbitboard.cpp -O1 -g tests/evaluator.cpp

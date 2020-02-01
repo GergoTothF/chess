@@ -1,0 +1,44 @@
+em++ -std=c++14 -Os bmp-to-ascii.cpp -Os utils.cpp -Os macroutils.cpp -Os magicbitboard.cpp -Os hello.cpp -o bmp-to-ascii.wasm --use-preload-plugins -s ALLOW_MEMORY_GROWTH=1 -s TOTAL_MEMORY=1024MB -s EXPORTED_FUNCTIONS="['_search']" -s EXTRA_EXPORTED_RUNTIME_METHODS="['ccall']" -s MODULARIZE=1 -s EXPORT_NAME="BmpAsciiModule"
+
+
+em++ -std=c++14 -Os bmp-to-ascii.cpp -Os utils.cpp -Os macroutils.cpp -Os magicbitboard.cpp -Os hello.cpp -o bmp-to-ascii.wasm --use-preload-plugins -s ALLOW_MEMORY_GROWTH=1 -s TOTAL_MEMORY=1024MB -s EXPORTED_FUNCTIONS="['_search']" -s EXTRA_EXPORTED_RUNTIME_METHODS="['ccall']" -s MODULARIZE=1 -s EXPORT_NAME="BmpAsciiModule"
+
+emcc hello.c -o hello.js -s WASM=1 -s MODULARIZE=1 -s EXPORT_NAME="MyCode" -s EXTRA_EXPORTED_RUNTIME_METHODS="['cwrap']"
+
+em++ -std=c++14 hello.cpp -o hello.js --use-preload-plugins -s ALLOW_MEMORY_GROWTH=1 -s TOTAL_MEMORY=1024MB -s EXPORTED_FUNCTIONS="['fib']" -s WASM=1 -s MODULARIZE=1 -s EXPORT_NAME="BmpAsciiModule" -s EXTRA_EXPORTED_RUNTIME_METHODS="['cwrap', 'ccall']"
+
+em++ -std=c++14 hello.cpp -o hello.js --use-preload-plugins -s ALLOW_MEMORY_GROWTH=1 -s TOTAL_MEMORY=1024MB -s EXPORTED_FUNCTIONS="['_fib']" -s WASM=1 -s MODULARIZE=1 -s EXPORT_NAME="BmpAsciiModule" -s EXTRA_EXPORTED_RUNTIME_METHODS="['cwrap', 'ccall']"
+
+em++ -std=c++14 -Os bmp-to-ascii.cpp -Os utils.cpp -Os macroutils.cpp -Os magicbitboard.cpp -Os hello.cpp -o hello.js --use-preload-plugins -s ALLOW_MEMORY_GROWTH=1 -s TOTAL_MEMORY=1024MB -s EXPORTED_FUNCTIONS="['_search']" -s WASM=1 -s MODULARIZE=1 -s EXPORT_NAME="BmpAsciiModule" -s EXTRA_EXPORTED_RUNTIME_METHODS="['cwrap', 'ccall']"
+
+em++ -std=c++14 -Os bmp-to-ascii.cpp -Os utils.cpp -Os macroutils.cpp -Os magicbitboard.cpp -o hello.js --use-preload-plugins -s ALLOW_MEMORY_GROWTH=1 -s TOTAL_MEMORY=1024MB -s EXPORTED_FUNCTIONS="['_search']" -s WASM=1 -s MODULARIZE=1 -s EXPORT_NAME="BmpAsciiModule" -s EXTRA_EXPORTED_RUNTIME_METHODS="['cwrap', 'ccall']"
+
+em++ -std=c++14 -Os bmp-to-ascii.cpp -Os utils.cpp -Os macroutils.cpp -Os magicbitboard.cpp -o hello.js --use-preload-plugins -s ALLOW_MEMORY_GROWTH=1 -s TOTAL_MEMORY=1024MB -s EXPORTED_FUNCTIONS="['_search']" -s WASM=1 -s MODULARIZE=1 -s EXPORT_NAME="BmpAsciiModule" -s EXTRA_EXPORTED_RUNTIME_METHODS="['cwrap', 'ccall', 'allocate', 'intArrayFromString']"
+
+em++ -std=c++14 -Os bmp-to-ascii.cpp -Os utils.cpp -Os macroutils.cpp -Os magicbitboard.cpp -o hello.js --use-preload-plugins -s ALLOW_MEMORY_GROWTH=1 -s TOTAL_MEMORY=1024MB -s EXPORTED_FUNCTIONS="['_search']" -s WASM=1 -s MODULARIZE=1 -s EXPORT_NAME="BmpAsciiModule" -s EXTRA_EXPORTED_RUNTIME_METHODS="['cwrap', 'ccall', 'allocate', 'intArrayFromString']"
+
+
+
+em++ -std=c++14 -Os bmp-to-ascii.cpp -Os utils.cpp -Os macroutils.cpp -Os magicbitboard.cpp -o hello.js --use-preload-plugins -s TOTAL_MEMORY=500MB -s EXPORTED_FUNCTIONS="['_search']" -s WASM=1 -s MODULARIZE=1 -s EXPORT_NAME="BmpAsciiModule" -s EXTRA_EXPORTED_RUNTIME_METHODS="['cwrap', 'ccall', 'allocate', 'intArrayFromString']"
+
+em++ -std=c++14 -Os bmp-to-ascii.cpp -Os utils.cpp -Os macroutils.cpp -Os magicbitboard.cpp -o hello2.js --use-preload-plugins -s TOTAL_MEMORY=500MB -s EXPORTED_FUNCTIONS="['_search']" -s WASM=1 -s MODULARIZE=1 -s EXPORT_NAME="BmpAsciiModule2" -s EXTRA_EXPORTED_RUNTIME_METHODS="['cwrap', 'ccall', 'allocate', 'intArrayFromString']"
+
+
+
+em++ -std=c++14 -Os bmp-to-ascii.cpp -Os utils.cpp -Os macroutils.cpp -Os magicbitboard.cpp -Os evaluator.cpp -o hello.js --use-preload-plugins -s TOTAL_MEMORY=500MB -s EXPORTED_FUNCTIONS="['_search']" -s WASM=1 -s MODULARIZE=1 -s EXPORT_NAME="BmpAsciiModule" -s EXTRA_EXPORTED_RUNTIME_METHODS="['cwrap', 'ccall', 'allocate', 'intArrayFromString']"
+
+em++ -std=c++14 -Os bmp-to-ascii.cpp -Os utils.cpp -Os macroutils.cpp -Os magicbitboard.cpp -Os evaluator.cpp -o hello2.js --use-preload-plugins -s TOTAL_MEMORY=500MB -s EXPORTED_FUNCTIONS="['_search']" -s WASM=1 -s MODULARIZE=1 -s EXPORT_NAME="BmpAsciiModule2" -s EXTRA_EXPORTED_RUNTIME_METHODS="['cwrap', 'ccall', 'allocate', 'intArrayFromString']"
+
+
+
+em++ -std=c++14 -Os win-chesser.cpp -Os utils.cpp -Os macroutils.cpp -Os magicbitboard.cpp -Os evaluator.cpp -o win-chesser-glue.js --use-preload-plugins -s TOTAL_MEMORY=500MB -s EXPORTED_FUNCTIONS="['_search']" -s WASM=1 -s MODULARIZE=1 -s EXPORT_NAME="WinChesserModule" -s EXTRA_EXPORTED_RUNTIME_METHODS="['cwrap', 'ccall', 'allocate', 'intArrayFromString']"
+
+em++ -std=c++14 -Os win-chesser.cpp -Os utils.cpp -Os macroutils.cpp -Os magicbitboard.cpp -Os evaluator.cpp -o win-chesser-glue2.js --use-preload-plugins -s TOTAL_MEMORY=500MB -s EXPORTED_FUNCTIONS="['_search']" -s WASM=1 -s MODULARIZE=1 -s EXPORT_NAME="WinChesserModule2" -s EXTRA_EXPORTED_RUNTIME_METHODS="['cwrap', 'ccall', 'allocate', 'intArrayFromString']"
+
+
+
+
+
+em++ -std=c++14 -Os win-chesser.cpp -Os utils.cpp -Os macroutils.cpp -Os magicbitboard.cpp -Os evaluator.cpp -o win-chesser-glue.js --use-preload-plugins -s TOTAL_MEMORY=500MB -s EXPORTED_FUNCTIONS="['_search']" -s WASM=1 -s MODULARIZE=1 -s EXPORT_NAME="WinChesserModule" -s EXTRA_EXPORTED_RUNTIME_METHODS="['cwrap', 'ccall', 'allocate', 'intArrayFromString']"
+
+
